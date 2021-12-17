@@ -47,7 +47,8 @@
     {% endif %}{% endunless %}
 
     {% include components/message.html text=post.description hide=hide_description alt=alt %}
-   
+   <!--상단버튼-->
+{% include components/page-button.html %}
   </header>
   <div class="markdown-body">
   {% if no_excerpt %}
