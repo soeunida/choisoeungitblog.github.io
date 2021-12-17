@@ -1,0 +1,3 @@
+---
+1.0.0 katex:~> 0.4.3,kramdown:~> 2.0|checksum:9b47b5b8f9208b0b9d4dd01b6a82fabcc2cb61612c5ab1f01ff6089a8b6a542c,ruby:>= 2.3
+1.0.1 katex:~> 0.4,kramdown:~> 2.0|checksum:7119b299fed5ec49b9e2107d18e88f90acf4bbdf1b82a7568fd488790bb04cdc,ruby:>= 2.3

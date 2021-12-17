@@ -1,0 +1,48 @@
+---
+6.0.0.pre.alpha jekyll:~> 3.4,jekyll-feed:~> 0.9,jekyll-paginate:~> 1.1,jekyll-sitemap:~> 1.0|checksum:2de8efdf4cbb5b53d4e7a957cdca221fb294ba61e4200dbeeb8a45fc8c302c17,rubygems:> 1.3.1
+6.0.0.pre.beta2 jekyll:~> 3.4,jekyll-paginate:~> 1.1|checksum:857d6826a8c30e804c4e5e655178392ed1acb363e4ec434b6e4384514aeab6ea,rubygems:> 1.3.1
+6.0.0.pre.beta3 jekyll:~> 3.4,jekyll-paginate:~> 1.1|checksum:ea75c299cda684ded732d622aada13558999b5fc527c4ecb48d9ae8655075df5,rubygems:> 1.3.1
+6.0.0 jekyll:~> 3.4,jekyll-paginate:~> 1.1|checksum:167f5526d8c0b2856d922d033eba95f7c8d49ec214da6f9aee117f0361625c99
+6.1.0 jekyll:~> 3.4,jekyll-paginate:~> 1.1|checksum:d56a27a3ab4edabcfe45f0b0f8a315c4a29b8188255b5a019b96645d427524cb
+6.2.0 jekyll:~> 3.4,jekyll-feed:~> 0.9,jekyll-paginate:~> 1.1,jekyll-redirect-from:~> 0.12,jekyll-sitemap:~> 1.0|checksum:3fbd39e93f1bc07f8dc4819e27fd5dd1be55521682c344ab39d50d1bc8ce274b
+6.3.0 classifier-reborn:>= 0,jekyll:~> 3.4,jekyll-feed:~> 0.9,jekyll-paginate:~> 1.1,jekyll-redirect-from:~> 0.12,jekyll-sitemap:~> 1.0|checksum:a7d3403ced9ca205f5f35bdd5e842d989cf61fd6ebc1357f4bd5629a0201b884
+6.4.0 classifier-reborn:~> 2.1,jekyll:~> 3.4,jekyll-feed:~> 0.9,jekyll-paginate:~> 1.1,jekyll-sitemap:~> 1.0|checksum:63ea49fde03a2c845f6b9fe6151c2e50adef65a4b2b37a40d2db7213ef0f9dec
+6.4.1 jekyll:~> 3.4,jekyll-feed:~> 0.9,jekyll-paginate:~> 1.1,jekyll-sitemap:~> 1.0|checksum:edb71e71a0ac9b0c420da3d728a08e4ce0f92db8f53815f250ae8bee639fc941
+6.5.0 classifier-reborn:~> 2.1,jekyll:~> 3.5,jekyll-default-layout:~> 0.1,jekyll-feed:~> 0.9,jekyll-optional-front-matter:~> 0.2,jekyll-paginate:~> 1.1,jekyll-redirect-from:~> 0.12,jekyll-relative-links:~> 0.4,jekyll-sitemap:~> 1.0|checksum:844f125b094cd0ffaea7102d4e0514ae11314d5368f87a62c204586dc2e4982c
+6.6.0 classifier-reborn:~> 2.1,jekyll:~> 3.5,jekyll-default-layout:~> 0.1,jekyll-feed:~> 0.9,jekyll-optional-front-matter:~> 0.2,jekyll-paginate:~> 1.1,jekyll-redirect-from:~> 0.12,jekyll-relative-links:~> 0.4,jekyll-sitemap:~> 1.0|checksum:968b08e3872786e3268a993e8c2b890549f7c84b268a01aa1b2d37c35a446d06
+6.6.1 classifier-reborn:~> 2.1,jekyll:~> 3.5,jekyll-default-layout:~> 0.1,jekyll-feed:~> 0.9,jekyll-optional-front-matter:~> 0.2,jekyll-paginate:~> 1.1,jekyll-redirect-from:~> 0.12,jekyll-relative-links:~> 0.4,jekyll-sitemap:~> 1.0|checksum:c5540646d26091d0d63050cf29e2af132171be0bbdff12c95a18e88250758295
+7.0.0.pre.beta.0 jekyll:~> 3.6,jekyll-feed:~> 0.9,jekyll-paginate:~> 1.1,jekyll-relative-links:~> 0.4,jekyll-seo-tag:~> 2.2,jekyll-sitemap:~> 1.0|checksum:15813035d2ca31b20b930959bf21b9d9b984751aa2b21be6cc41a152115b748f,rubygems:> 1.3.1
+7.0.0.pre.beta.1 jekyll:~> 3.6,jekyll-feed:~> 0.9,jekyll-paginate:~> 1.1,jekyll-relative-links:~> 0.4,jekyll-seo-tag:~> 2.2,jekyll-sitemap:~> 1.0|checksum:ba545cceb12a8ae00d5d50a52a80327c561c249db1a4bf3ec6b1421431eeb81e,ruby:~> 2.1,rubygems:> 1.3.1
+7.0.0 jekyll:~> 3.6|checksum:557697ed7158d1ad3caafff06d9565eaf8e86ac3a75dd9614c8f5655bf6be37f,ruby:~> 2.1
+7.0.1 jekyll:~> 3.6|checksum:cc82fc0118b4318b6386f8b1f89e61a26c149d8be81b89b714bd49920f59ad21,ruby:~> 2.1
+7.1.0 jekyll:~> 3.6|checksum:7a58fee9a196aad8cb59dffbf9d604d2c930cfc74db57df27e6c80c20be41521,ruby:~> 2.1
+7.1.1 jekyll:~> 3.6|checksum:6626b844810c51559096f1811333f9274d33a2034e715296945c66c74455b50e,ruby:~> 2.1
+7.2.0 jekyll:~> 3.6|checksum:471c797a25bf51ae29fb9892d0aee860f198173302b94b2b13bca002607d52a8,ruby:~> 2.1
+7.3.0 jekyll:~> 3.6|checksum:49a78e127cdf3fff13c8739c2c23b517557de45d1dcf515e916c7b1d4881011a,ruby:~> 2.1
+7.4.0 jekyll:~> 3.6|checksum:9d1c5ecaffb039906e6ea46f53209f5b66f13c006b6f1ba072451ce9ab29c6df,ruby:~> 2.1
+7.4.1 jekyll:~> 3.6|checksum:000eec83f0acfcc69c66a2cf99b58e465727265f0ec574ff5d37544fb114298a,ruby:~> 2.1
+7.4.2 jekyll:~> 3.6|checksum:e08fe2e56f37a07bc7fcde68cb6b916ffd5ef89daca5e4e64f10e1a4f3464e6e,ruby:~> 2.1
+7.5.0 jekyll:~> 3.6|checksum:c2676352bc12d697fa273578e4e3fe7b12b06b4170853d719f1ee69f4b5db0fe,ruby:~> 2.1
+7.5.1 jekyll:~> 3.6|checksum:d40bd1277d501feaddf881d37c6992169dffe32f3845f8da9687cc7084271644,ruby:~> 2.1
+7.5.2 jekyll:~> 3.6|checksum:bff1139c4f785994be2ba4600da63a73971595901009e7b05b07699d09c6ac41,ruby:~> 2.1
+8.0.0 jekyll:~> 3.7|checksum:66e9b24c85eb91b76f32beec81be1961eae29f96c99bde523a555be7065287cc,ruby:~> 2.2
+8.1.0 jekyll:~> 3.7|checksum:65c3e06af7e682af0a8e675a6a9440066c674d63cde3734ff92310f453065d5e,ruby:~> 2.2
+8.1.1 jekyll:~> 3.7|checksum:a3102bd60276777a31e3f52e55f7b3f24be03397a848554bb6d470285a4d5599,ruby:~> 2.2
+8.2.0 jekyll:~> 3.7|checksum:4c13a92d9e0e6521f1de6d83a861be73a0fd600a1271c610c3f6bbb16fbaf38c,ruby:~> 2.2
+8.3.0 jekyll:~> 3.7|checksum:06838a86dfa8902e6dbaf6056e35edd16302d82f809c6bec92a038a6f4daa934,ruby:~> 2.2
+8.3.1 jekyll:~> 3.7|checksum:edfc625c1aa7969dfd5a966e2285850131f814d081fbd5f57002ada7932de1b1,ruby:~> 2.2
+8.3.2 jekyll:~> 3.7|checksum:2be0ee263e1b06812b589a5da0e3ac5449eac900ab7999a14e8a4559162c2060,ruby:~> 2.2
+8.4.0 jekyll:~> 3.7|checksum:c248997bbc7c30bae08dbc0b9775260ddf1bc4eb8816dda0fb7db345d139952a,ruby:~> 2.2
+8.5.0 jekyll:~> 3.7|checksum:680f2e0d9a619cd5cb00fbe1856885b008d8f448735a3486f0179cf000eff91a,ruby:~> 2.2
+8.5.1 jekyll:~> 3.7|checksum:1df5fed3e3ea5712c999c7014b5fdc21cf27e690b2811f8c8cf02f171bdac80e,ruby:~> 2.2
+8.5.2 jekyll:~> 3.7|checksum:e662b1ef069a06b9bcddeabd9dec91e2749693100a1366a2ff3245cc130a63c8,ruby:~> 2.2
+9.0.0 jekyll:>= 3.8,jekyll-include-cache:~> 0.2|checksum:b60cfefca1e31f34fe3428f3a3cb2cbab0995f0a8b8c870baaa87c1d9cf1d67b,ruby:~> 2.6
+9.0.1 jekyll:< 5.0&>= 3.8,jekyll-include-cache:~> 0.2|checksum:b9f83e060ebf9b1a70457a2da349f5cfeac508ad4350418228b3a3952d798a3f,ruby:~> 2.6
+9.0.2 jekyll:< 5.0&>= 3.8,jekyll-include-cache:~> 0.2|checksum:a16a342aad8227e56c021896586f4e70c614afd6fba996bcebd651a95ab02116,ruby:~> 2.6
+9.0.3 jekyll:< 5.0&>= 3.8,jekyll-include-cache:~> 0.2|checksum:52ff5e6d372be7d95ce3abc8dac7a87fccdccbb5b9f92a15d3eb5d595185c9c3,ruby:~> 2.6
+9.0.4 jekyll:< 5.0&>= 3.8,jekyll-include-cache:~> 0.2|checksum:be266d8bcbbe56d9c0ec23a437e27e6ad4b0a5b41f4954ccfcd080783bf383af,ruby:~> 2.6
+9.1.0 jekyll:< 5.0&>= 3.8,jekyll-include-cache:~> 0.2|checksum:5a347a082f534b46094a7f689b6d9fcddfdb0fe5d0f68717beadedc7f18b321d,ruby:~> 2.6
+9.1.1 jekyll:< 5.0&>= 3.8,jekyll-include-cache:~> 0.2|checksum:d478cb60ef7e6cfd66f110f323e186ded6b8d846a1d0324580593162b241b2bf,ruby:~> 2.6
+9.1.2 jekyll:< 5.0&>= 3.8,jekyll-include-cache:~> 0.2|checksum:88fc2c115579453e22da81c11571cbfedd3ebadca3b807213a7ca6a7edc2a4d6,ruby:~> 2.6
+9.1.3 jekyll:< 5.0&>= 3.8,jekyll-include-cache:~> 0.2|checksum:df5e7622ed87e74e13c1bc1092f79a6f6f66354b431d51324fdce647804efd4c,ruby:~> 2.6
+9.1.4 jekyll:< 5.0&>= 3.8,jekyll-include-cache:~> 0.2|checksum:32cb209b5d3d96364916ab0cb03a18fbddefee9601ec217abd01c674a6851316,ruby:~> 2.6
