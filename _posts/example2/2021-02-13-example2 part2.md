@@ -1,119 +1,172 @@
 ---
 layout: post
-title: example2 part2
-image: /assets/img/blog/jj-ying.jpg
-accent_image: 
-  background: url('/assets/img/blog/jj-ying.jpg') center/cover
-  overlay: false
-accent_color: '#ccc'
-theme_color: '#ccc'
+title: example2 part2. 검색엔진 최적화하기
+image: 
+  path: /assets/img/blog/caleb-george-old.jpg
 description: >
-  Version 9.1 provides minor design changes, new features, and closes multiple issues.
-invert_sidebar: true
+ part1. 검색엔진 최적화하기
+
+sitemap: false
 categories:
   -example2
 ---
-
-#예시2-게시물2?
-
-What's New in Hydejack 9.1?
+# part2.검색엔진 최적화하기
 
 * toc
-{:toc}
+{:toc .large-only} 
 
 
-## Stripe-ified Design
-Most elements now have rounded borders, making the design look more modern (dare I say "Stripe-ified") than ever before. 
-
-The goal of Hydejack was always to provide a theme that looks "designed" combined the amenities of a typical Jekyll theme for coders.
-This is an important step in maintaining this goal.
-
-At the same time, I'm introducing nerdy elements like [breadcrumbs](#serp-breadcrumbs), that are almost ornamental in nature.
-You wouldn't find these on other Stripe-like designs, but I think they are appealing to developer types like myself. 
-Like most additions to Hydejack, they can be disabled via configuration. 
+👀4.1 검색엔진최적화
+검색엔진최적화는 검색엔진이 이해하기 쉽도록 홈페이지 구조를 설정하여 포털 사이트 상위에 노
+출시키는 작업이다. jekyll으로 제작된 깃허브 블로그에 SEO 작업을 진행한다.
 
 
-## Inverted Sidebars
-The colors on the sidebar can now be inverted to allow brighter sidebar images. This can be enabled per-page in the fort matter:
-
-```yml
-invert_sidebar: true
-```
+👀4.1.1 Sitemap
 
 
-## Code Block Headers
-Code blocks can now have headers:
-
-~~~js
-// file: 'hello-world.js'
-console.log('Hello World!');
-~~~
-
-Headers are added by making the first line a comment of the form `(file|title): ['"].*['"]`, e.g.:
-
-    ~~~js
-    // file: 'hello-world.js'
-    console.log('Hello World!');
-    ~~~
-    
-Code blocks with and without headers now also come with a copy button. 
-In the case of header-less code blocks, the button only shows on hover to prevent potential overlap.
+- 웹 크롤링 로봇이 이용할 수 있는 웹사이트의 접근 가능한 페이지의 목록
+- 사이트맵을 등록하면 구글에서 주기적으로 크롤링을 한 뒤 관련 검색어로 검색 시 해당 사이
+트가 노출이 된다.
+- sitemap.xml 파일을 사용하면 사이트 구조를 구글, 네이버, 다음 등 검색엔진에 손 쉽게 제출
+할 수 있다.
+- 검색엔진에 크롤링해야하는 URL을 알려줌으로써 색인을 생성하는 방법을 제안한다.
+그럼 이제 Sitemap.xml을 생성해본다.
+아래 내용으로 sitemap.xml 파일을 만들고 root 경로에 넣어준다.
 
 
-## Resume Download Buttons
-Resumes can now have download buttons:
-
-![Download Buttons](/assets/img/blog/9.1.0-3.png){:.border.lead width="1776" height="258" loading="lazy"}
-
-Resumes can now have download buttons.
-{:.figcaption}
-
-The documentation has been updated with a chapter on [how to configure the buttons](/docs/basics/#downloads).
-
-
-## SERP Breadcrumbs
-Added breadcrumbs above page title:
-
-![Breadcrumbs](/assets/img/blog/9.1.0-2.png){:.border.lead width="1588" height="164" loading="lazy"}
-
-Bread crumbs are now shown above each page title.
-{:.figcaption}
-
-Note that this requires a [directory-like URL structure](https://qwtel.com/posts/software/urls-are-directories/) on your entire site, 
-otherwise the intermediate links will point to nonexisting sites.
-
-On a side note, Hydejack now has built-in tooltips for abbreviations like SERP (activated via tap/click).
-See [Example Content](/blog/hyde/2012-02-07-example-content/#inline-html-elements) on how to add them to your content.
+- 해당 파일을 커밋, 푸쉬 한다.
+- 블로그 주소/sitemap.xml 에 들어가서 제대로 사이트맵이 등록되었는지 확인해 본다.
+- 홈페이지의 모든글의 정보를 담고있는 사이트맵이 출력되는 것을 알 수 있다. 추후에 블로그
+포스팅을 푸쉬 하면 jekyll이 빌드하면서 사이트맵도 자동으로 갱신된다.
+- Gemfile파일에 gem ‘jekyll-sitemap’이 있는것을 확인해보고 있다면 자동으로 갱신된다.
+(참고로 /sitemap.xml을 실행했을 때 제대로 안 나오는 경우가 있는데, 주소 링크에 특수문자가
+들어간 경우이다. 깃허브 블로그의 경우 포스팅 파일명으로 링크가 생성되므로 포스팅 파일명은
+특수문자 및 한글 사용을 안 하도록 한다.)
 
 
-## Last Modified At
-Blog posts can now have a "last modified at" date in the sub title row.
-
-![Last modified at](/assets/img/blog/9.1.0-1.png){:.border.lead width="1254" height="218" loading="lazy"}
-
-Note that this depends on the `last_modified_at` property of the page, which must be either set manually in the frontmatter (not recommended), or via a plugin like [`jekyll-last-modified-at`](https://github.com/gjtorikian/jekyll-last-modified-at). Note that the later is not available when building on GitHub Pages and can increase build times.
+👀4.1.2 RSS
 
 
-## Clap Button Preview
-I've been trying something new with [**getclaps.app**](https://getclaps.app/), a feedback and analytics tool for personal sites like those powered by Hydejack. 
-It looks like this:
-
-<clap-button style="--clap-button-color:var(--body-color);margin:2rem auto 3rem;width:3rem;height:3rem;font-size:smaller" nowave></clap-button>
-
-It is a separate product from Hydejack and not enabled by default. Because it depends on a backend component, it requires a monthly fee. 
-If enabled, it is placed below posts and pages where the dingbat character (❖) used to be.
-
-I can't claim that this product is fully baked (feedback welcome), but I've been using it on my personal site and here for the last couple of months with no issues.
-For more, see [the dedicated website](https://getclaps.app/).
-
-***
-{:style="margin:2rem 0"}
-
-There are many more changes and bugfixes in 9.1. See the [CHANGELOG](/changelog/){:.heading.flip-title} for details.
+- RSS(Rich Site Summary)란 뉴스나 블로그 사이트에서 주로 사용하는 콘텐츠 표현 방식이며, 
+웹 사이트 관리자는 RSS 형식으로 웹 사이트 내용을 보여 준다.
+- RSS피드는 정기적으로 업데이트 되는 웹 콘텐츠를 전달해 주는 형태이며, 글의 전체 혹은 요
+약된 정보와 작성자 등의 정보가 포함되어 있다. 즉 블로그의 글을 작성하면 RSS피드에도 전
+달이 되고, 구글, 네이버, 다음 등을 통해 글을 검색하면, 검색 엔진은 블로그의 RSS피드로부
+터 글을 받게 되어 해당 블로그로 들어오게 된다.
+그럼 이제 RSS feed.xml을 생성한다
 
 
-## Credits
 
-<span>Photo by <a href="https://unsplash.com/@jjying?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">JJ Ying</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+👀4.1.3 robots
 
-*[SERP]: Search Engine Results Page
+
+robots.txt 또는 robots.xml은 로봇 배제 표준을 따르는 일반 텍스트 파일이다. 쉽게 표현하면 검색
+엔진이 해당 사이트의 콘텐츠를 가져가는것을 허락하는 설정과 가져가면 안되는 설정을 하는 부
+분이라고 보면 된다. 위와 동일하게 root 경로에 위치한다.
+robots.xml을 생성한다.
+
+
+User-agent는 허용할 검색엔진 명을 넣게 된다. 따로 설정하지 않으면(*) 모든 검색엔진을 허용하
+게 된다. Sitemap은 본인 블로그 사이트맵 주소를 넣어 주면 된다.
+
+
+<div class="main_center">
+    <div><img src= "/assets/img/blog/example1/24.JPG" style="width: 700px; height: 500px; auto;"></div>
+</div>
+
+
+
+👀4.1.4 블로그 등록
+
+
+본인 블로그를 등록 해야 구글 및 네이버에서 검색이 가능하다.
+
+
+1) Google Search Console
+
+
+Google Search Console에 접속한다. SEARCH CONSOLE 버튼을 클릭한다.
+
+
+
+<div class="main_center">
+    <div><img src= "/assets/img/blog/example1/15.JPG" style="width: 700px; height: 500px; auto;"></div>
+</div>
+
+
+시작하기 버튼을 누른다.
+
+
+
+<div class="main_center">
+    <div><img src= "/assets/img/blog/example1/16.JPG" style="width: 700px; height: 500px; auto;"></div>
+</div>
+
+
+URL 접두어에 자신의 깃헙블로그 주소를 넣는다.
+
+
+<div class="main_center">
+    <div><img src= "/assets/img/blog/example1/17.JPG" style="width: 700px; height: 500px; auto;"></div>
+</div>
+
+
+소유권 확인과정을 거친다.
+html 파일을 다운받아 깃허브블로그 코드 폴더 root에 넣는다.
+
+
+<div class="main_center">
+    <div><img src= "/assets/img/blog/example1/18.JPG" style="width: 700px; height: 500px; auto;"></div>
+</div>
+
+
+git repository에 push한다. 이후 바로 소유권이 확인되지 않는다. 대략 5분~10분이상 기다려야한
+다.
+하지만 그래도 안된다면 HTML 태그방법으로 메타 코드를 복사한다. 메타 태그를 이용한 사이트
+소유권을 확인한 뒤 사이트맵을 등록해주면 된다.
+_includes/head.html에 추가해준다.
+기다리면 다음과 같이 소유권이 확인된다.
+
+<div class="main_center">
+    <div><img src= "/assets/img/blog/example1/19.JPG" style="width: 700px; height: 500px; auto;"></div>
+</div>
+<div class="main_center">
+    <div><img src= "/assets/img/blog/example1/20.JPG" style="width: 700px; height: 500px; auto;"></div>
+</div>
+<div class="main_center">
+    <div><img src= "/assets/img/blog/example1/21.JPG" style="width: 700px; height: 500px; auto;"></div>
+</div>
+
+
+sitemap.xml을 입력하고 제출 버튼을 누른다.
+
+
+<div class="main_center">
+    <div><img src= "/assets/img/blog/example1/22.JPG" style="width: 700px; height: 500px; auto;"></div>
+</div>
+
+
+
+
+2) Naver Webmaster
+
+
+
+네이버 웹마스터 도구에 접속한다.
+https://searchadvisor.naver.com/
+로그인하고 블로그 주소를 등록해 사이트를 추가해 준다.
+
+
+<div class="main_center">
+    <div><img src= "/assets/img/blog/example1/23.JPG" style="width: 700px; height: 500px; auto;"></div>
+</div>
+
+
+
+웹마스터 도구에서 제공하는 html 파일을 다운받아 본인 블로그에 업로드하거나 메타태그를 이용
+하는 방법으로 사이트 소유권을 확인한다.
+왼쪽 요청 메뉴로 들어가 사이트맵을 제출해준다.
+깃허브에서 공식적으로 지원하는 jekyll블로그는 RSS2.0이 아닌, ATOM이라는 방식으로 feed.xml을
+생산해준다. 그리고 ATOM방식으로 제작된 피드는 네이버 웹마스터도구에 등록이 안된다.
+솔직히 네이버는 들어가보면 알겠지만 설명이 워낙 잘 되어있어서 영상을 보면서 따라하면 되겠
+다

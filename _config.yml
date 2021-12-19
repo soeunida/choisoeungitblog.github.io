@@ -3,7 +3,7 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://myblog.github.io
+url:                   https://choisoeungitblog.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
@@ -25,7 +25,7 @@ title:                 CHOI SO EUN GIT BLOG
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  데이터 분석 블로그
+  Github pages 블로그
 
 # A shorter description for the sidebar.
 tagline:               Change future with Data
@@ -50,6 +50,8 @@ author:
 menu:
   - title:             About
     url:               /About/
+  - title:             Posts
+    url:               /posts/    
   - title:             Example1
     url:               /Example1/
   - title:             Example2
