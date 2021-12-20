@@ -41,7 +41,7 @@ logo:                  /assets/img/logo.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                soeun choi
+  name:                choi so eun
   email:               soeun_2021@naver.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
@@ -49,13 +49,13 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             About
-    url:               /About/
+    url:               /about/
   - title:             Posts
     url:               /posts/    
   - title:             Example1
-    url:               /Example1/
+    url:               /example1/
   - title:             Example2
-    url:               /Example2/
+    url:               /example2/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..

@@ -10,7 +10,7 @@ sitemap: false
 categories:
   -example1
 ---
-# part2.조회수 보이기 기능 활용해보기
+# part2.조회수 보기
 
 * toc
 {:toc .large-only} 

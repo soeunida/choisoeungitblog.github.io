@@ -10,7 +10,7 @@ sitemap: false
 categories:
   -example1
 ---
-# part3.게시물에 댓글 기능 추가하기
+# part3.게시물에 댓글 기능
 
 
 3.7 댓글기능 추가하기

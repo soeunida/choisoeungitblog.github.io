@@ -1,12 +1,13 @@
 ---
 layout: about
-image: /assets/img/me/1.jpg
+image:  /repo/mygitblog/assets/img/me/1.jpg
 description: >
-  인공지능을 공부하고 있는 최소은입니다.
+    인공지능뿐만아니라 풀스택 전문가가 되기위해 꾸준히 성장하는 최소은입니다.
 hide_description: false
 ---
 
-# About
+
+## About
 
 <!--author-->
 
@@ -27,7 +28,7 @@ Github pages 블로그를 운영하는 중입니다.💻
 
 저에게 조금 관심이 생기셨다면 [CV](/assets/CV.pdf)를 확인해주시면 감사하겠습니다!😃
 <div class="me">
-<div><img src= "/assets/me/chat1.png"></div>
+<div><img src= "/assets/me/chat1.jpg"></div>
 <div><img src= "/assets/me/chat2.png"></div>
 <div><img src= "/assets/me/chat3.png"></div>
 </div>

@@ -7,25 +7,25 @@ author1:
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
+  about:          
     안녕하세요. 풀스택 개발자 최소은입니다.
 
   # This photo will be used in the about section
   picture:
-    path:            /repo/mygitblog/assets/img/me.jpg
+    path:             /assets/img/me/1.jpg
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            /repo/mygitblog/assets/img/me.jpg
-      2x:            /repo/mygitblog/assets/img/me.jpg
+      1x:            /assets/img/me/1.jpg
+      2x:            /assets/img/me/1.jpg
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
+   # twitter:         <username>
     github:          https://github.com/soeunida
-    # email:           <mail@domain.tld>
-    # rss:             https://<url>/feed.xml
+    email:         soeun_2021@naver.com
+    # rss:           
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
@@ -35,7 +35,7 @@ author1:
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    # instagram:       <username>
+    instagram:       http://www.instagram.com/so_euneun
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -64,9 +64,9 @@ author1:
 
 # Another author (optional)
 author2:
-  name:              <firtname> <lastname>
-  email:             <soeun_2021@naver.com>
-  about:             |
+  name:              
+  email:             
+  about:             
     
 
   picture:           https://placehold.it/128x128

@@ -1,30 +1,27 @@
 ---
 layout: about
-image: /assets/img/me/1.jpg
-description: >
---인공지능뿐만아니라 풀스택 전문가가 되기위해 꾸준히 성장하는 최소은입니다.
+image:  /assets/img/me/1.jpg
+description: 
+    인공지능뿐만아니라 풀스택 전문가가 되기위해 꾸준히 성장하는 최소은입니다.
 hide_description: true
-permalink: / 
-redirect_from:
- - /download/
+
 ---
 
 # About
 
 <!--author-->
 
-* * *
 
+* * *
 <center>
 <span style="font-size:170%;font-weight:bold">
 최소은
 </span>
-
 </center>
+
 <center>MAJOR : INDUSTRIAL ENGINEERING </center>
 
 <center>Kyongggi University</center>
-
 
 ## Personal Data
 ---
